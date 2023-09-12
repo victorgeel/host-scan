@@ -3,7 +3,7 @@
 from colorama import Fore, Back, Style
 import socket, os, sys, struct, concurrent.futures, subprocess
 import signal
-import us
+import os
 
 def handler(say, frame):
     os.system("clear")
